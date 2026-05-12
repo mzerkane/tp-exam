@@ -96,6 +96,21 @@ footer{
     margin-top:40px;
     font-size:18px;
 }
-*{
-    scroll-behavior: smooth;
+#btnMessage{
+    background:pink;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:15px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+
+    /* milieu de la page */
+    display:block;
+    margin:50px auto;
+}
+
+#btnMessage:hover{
+    background:#d63384;
 }
