@@ -96,3 +96,6 @@ footer{
     margin-top:40px;
     font-size:18px;
 }
+*{
+    scroll-behavior: smooth;
+}
