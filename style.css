@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    background: #ffe6f0;
     color: #333;
     text-align: center;
     padding: 30px;
@@ -16,7 +16,7 @@ body {
 
 /* Titre */
 h1 {
-    color: #2c3e50;
+    color: #d63384;
     margin-bottom: 15px;
     font-size: 40px;
 }
@@ -25,22 +25,25 @@ h1 {
 p {
     font-size: 20px;
     margin-bottom: 20px;
+    color: #b03060;
 }
 
-/* Lien GitHub */
+/* Bouton GitHub */
 a {
     display: inline-block;
     text-decoration: none;
-    background: #3498db;
+    background: #ff69b4;
     color: white;
-    padding: 12px 20px;
-    border-radius: 8px;
+    padding: 12px 22px;
+    border-radius: 10px;
     transition: 0.3s;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 a:hover {
-    background: #2980b9;
+    background: #e754a6;
+    transform: scale(1.05);
 }
 
 /* Sections */
@@ -50,25 +53,26 @@ footer {
     margin: 20px auto;
     padding: 20px;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 18px;
     font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 /* Header */
 header {
-    background: #2ecc71;
-    color: white;
+    background: #ffb6c1;
+    color: #8b005d;
 }
 
 /* Main */
 main {
-    background: #f39c12;
+    background: #ff85a2;
     color: white;
 }
 
 /* Footer */
 footer {
-    background: #34495e;
+    background: #d63384;
     color: white;
 }
