@@ -28,10 +28,14 @@ nav a{
     margin:0 15px;
     font-size:18px;
     font-weight:bold;
+    transition:0.3s;
 }
 
 nav a:hover{
     color:#ffe6f0;
+    background:#d63384;
+    padding:10px 15px;
+    border-radius:10px;
 }
 
 /* Sections */
@@ -55,28 +59,32 @@ h1{
 h2{
     color:#d63384;
     margin-bottom:20px;
+    font-size:32px;
 }
 
 /* Paragraphes */
 p{
     font-size:20px;
     margin-bottom:20px;
+    color:#444;
 }
 
-/* Bouton GitHub */
-section a{
+/* Boutons liens */
+.btn{
     display:inline-block;
     background:#ff69b4;
     color:white;
     text-decoration:none;
     padding:12px 25px;
-    border-radius:10px;
+    border-radius:12px;
     transition:0.3s;
     font-weight:bold;
+    margin-top:10px;
 }
 
-section a:hover{
+.btn:hover{
     background:#d63384;
+    transform:scale(1.05);
 }
 
 /* Footer */
@@ -86,4 +94,5 @@ footer{
     text-align:center;
     padding:20px;
     margin-top:40px;
+    font-size:18px;
 }
