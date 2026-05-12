@@ -81,3 +81,32 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
+/* Navigation */
+nav {
+    background: #ff69b4;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffe6f0;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
